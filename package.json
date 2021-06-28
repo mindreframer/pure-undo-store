@@ -1,12 +1,12 @@
 {
-  "name": "pure-store",
+  "name": "pure-undo-store",
   "version": "1.2.0",
   "description": "A tiny immutable store with type safety.",
   "main": "dist/index.js",
   "module": "index.js",
   "types": "index.d.ts",
   "sideEffects": false,
-  "repository": "https://github.com/gunn/pure-store",
+  "repository": "https://github.com/mindreframer/pure-undo-store",
   "author": "Arthur Gunn",
   "license": "MIT",
   "scripts": {
