@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Supports undo/redo works for substores 4`] = `
+Array [
+  Array [
+    Object {
+      "op": "add",
+      "path": Array [
+        "animals",
+        2,
+      ],
+      "value": Object {
+        "age": 5,
+        "name": "Odin",
+      },
+    },
+  ],
+  Array [
+    Object {
+      "op": "replace",
+      "path": Array [
+        "animals",
+        2,
+        "name",
+      ],
+      "value": "NewOdin",
+    },
+  ],
+]
+`;
